@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
-              android:orientation="vertical" 
-              android:layout_width="match_parent" 
-              android:layout_height="match_parent">
-  <Button android:id="@+id/myButton" 
-          android:layout_width="match_parent" 
-          android:layout_height="wrap_content" 
-          android:text="@string/hello" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linearLayout1"
+    android:background="@android:color/white">
+    <Button
+        android:text="Button"
+        android:layout_width="fill_parent"
+        android:layout_height="70.5dp"
+        android:id="@+id/button"
+        android:background="@android:drawable/alert_light_frame"
+        android:backgroundTint="#ff14ffff"
+        android:backgroundTintMode="src_over"
+        android:alpha="1"
+        android:textSize="12pt"
+        android:textColor="@android:color/background_dark"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/accelerometer_text"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content"
+        android:text="TEXT"
+        android:textSize="12pt"
+        android:background="#165074"
+        android:layout_margin="10dp"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/Deltas"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content"
+        android:text="TEXT"
+        android:textSize="12pt"
+        android:background="@android:color/transparent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="@android:color/black" />
 </LinearLayout>
